@@ -1,0 +1,30 @@
+.text1{
+    color: aqua;
+    font-size: 30px;
+    text-shadow: 2px 1px 1px black;
+}
+
+.input1{
+    color: navy;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    text-align: left;
+    border: 2px solid ;
+}
+
+#btn1{
+    background-color:skyblue;
+    height: 30px;
+    width: 170px;
+    font-size: large;
+    border-radius: 1%;
+}
+
+#div1{
+    height: 720px;
+    width: 720px;
+    background-color: antiquewhite;
+    align-content: center;
+    margin: 50px;
+}
