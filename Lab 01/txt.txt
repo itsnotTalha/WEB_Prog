@@ -1,0 +1,10 @@
+Class date : 18 - 11 - 2025
+Mentor : Nahid Hossain
+Time : 11:11 AM
+
+
+Head->
+    title
+    icon
+    metadata : Keywords(Ei web related ki ki word thakte pare jeta user ra search ta dibe) + description(Ki ase website e sei information gula)
+    link
