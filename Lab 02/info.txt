@@ -1,0 +1,11 @@
+Web Programming class
+Date: Nov 25, 2025
+html+css
+
+Three ways to use-
+1. Using style attribute
+2. Using style tag
+3. Using seperate css file
+
+
+css selectors-> id=(oi page e unique) and class=(same design to multiple elements)
