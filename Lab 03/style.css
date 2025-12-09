@@ -1,0 +1,52 @@
+*{
+    margin: 10px 10px 10px 10px;
+}
+
+body{
+    background-color: blanchedalmond;
+    /* margin-left: 100px; */
+    height: fit-content;
+}
+
+.btn{
+    color: blueviolet;
+    background-color: azure;
+    border-radius: 10%;
+    border-color: brown;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px dotted black;
+    box-shadow: 2px 2px 5px 0.5px rgba(0, 0, 0, 0.5);
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+
+#div1{
+    /* margin:00%; */
+    display: grid;
+    background-color: azure;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#div2{
+    background-color: darkgray;
+    height: 20vh;
+    width: 100vh;
+    border-radius: 10px;
+    text-align: center;
+}
+#div5{
+    display: flex;
+}
+
+#parent{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}

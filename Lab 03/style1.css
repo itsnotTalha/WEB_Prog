@@ -1,0 +1,44 @@
+#parent{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+}
+#div1{
+    background-color: antiquewhite;
+    height: 20vh;
+    width: 100vw;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#div2{
+    /* background-color: wheat; */
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+}
+#div4{
+    height: auto;
+    width: 20vw;
+    background-color: bisque;
+}
+#div5{
+    height: auto;
+    width: 80vw;
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+}
+#div3{
+    background-color: gainsboro;
+    height: 10vh;
+    width: 100vw;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
