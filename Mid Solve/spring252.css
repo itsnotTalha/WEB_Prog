@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: whitesmoke;
+    height: 10%;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center ;
+}
+.header ul{
+    display: block;
+    display: flex;
+    gap: 10px;
+}
+.header li{
+    list-style-type: none;
+}
+.header a{
+    /* display: block; */
+    display: block;
+    text-align: center;
+    font-size: 15pt;
+    margin: 5px;
+    padding: 2%;
+    width: 100%;
+    height: 40px;
+    padding-top: 4px;
+    border-radius: 1%;
+
+}
+.header h1{
+    font-size: 20pt;
+}
+
+.bodyy{
+    background-color: aqua;
+    height: 90%;
+    display: flex;
+}
+.box1{
+    background-color: #0976a7;
+    width: 35%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.box1 p{
+    font-size: 20pt;
+    color: white;
+}
+.box1 h3{
+    margin-top: 55px;
+    color: white;
+}
+.box1 a{
+    color: white;
+}
+.box2{
+    box-sizing: border-box;
+    background-color: blueviolet;
+    width: 65%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3% ;
+    display: flex;
+    flex-direction: column;
+}
+.box2 h1{
+    padding: 5%;
+    font-size: 35pt;
+    text-align: center;
+}
+.box h3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15pt;
+}
+.box2 h3 a{
+    text-align: center;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.b1{
+    height: 40px;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+}
+.temp{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.b2{
+    height: 40px;
+    width: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.t1{
+    height: 40px;
+    font-size: 15pt;
+    background-color: #eff1f3;
+    border: 1px solid black;
+}
+.temp2{
+    display: flex;
+    flex-direction: column;
+}
+.b3{
+    font-size: 15pt;
+    height: 40px;
+    background-color: #e90606;   
+    border: none; 
+}
+.box3 a{
+    padding-left: 73%;
+    color:#e90606;
+    float: right;
+}
