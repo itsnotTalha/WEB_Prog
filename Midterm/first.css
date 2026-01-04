@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+}
+#navbar{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    align-items: center;
+
+}
+#navbar h1{
+    color: #3f46a4;
+}
+#list_nav{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.cell{
+    font-size: 16pt;
+    padding-right: 10px;
+}
+
+#main_box{
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+
+}
+#left_box{
+    height: 100%;
+    width: 60%;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+#left_box h1{
+    font-size: 40pt;
+    padding-top: 30px;
+    color: #3f46a4;
+}
+#left_box h2{
+    font-size: 25pt;
+    font-weight: 100;
+    padding-top: 30px;
+}
+#left_box p{
+    padding-top: 30px;
+    font-size: 14pt;
+}
+#left_box ol{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    list-style-type: square;
+}
+
+
+#right_box{
+    height: 100%;
+    width: 40%;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+#right_box h2{
+    text-align: center;
+    padding-top:60px;
+    padding-bottom: 30px;
+    color: #3f46a4;
+}
+#right_box label{
+    font-size: 15pt;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.text_box{
+    height: 30px;
+    padding: 0px 10px;
+    color: black;
+}
+#password{
+    height: 30px;
+}
+ a{
+    text-decoration: none;
+    color: #6fb570;
+}
+#btn3{
+    margin-top: 30px;
+    height: 40px;
+    background-color: #FEFEFE;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+
+}
+#btn1{
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: #50ad50;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#btn2{
+    height: 50px;
+    width: 150px;
+    border: 2px solid #3f46a4;
+    border-radius: 5px;
+    color: #3f46a4;
+}
