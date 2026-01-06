@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+</head>
+<body>
+
+<form action="index.php" method="post">
+
+    <label for="quantity">Enter number of pineapples:</label><br>
+    <input type="text" name="quantity" id="quantity"><br><br>
+
+    <label>Delivery Option:</label><br>
+    <input type="radio" name="delivery" value="home"> Yes<br>
+    <input type="radio" name="delivery" value="pickup"> No <br>
+
+    <label for="address">Address:</label><br>
+    <select name="address" id="address">
+        <option value="dhaka">Dhaka</option>
+        <option value="chittagong">Chittagong</option>
+    </select><br><br>
+
+    <label for="tip">Tip Amount:</label><br>
+    <input type="text" name="tip" id="tip"><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
