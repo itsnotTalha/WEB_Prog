@@ -7,7 +7,7 @@ if(!isset($_SESSION['total'])){
     $_SESSION['count'] = 1;
 }
 
-if($_SERVER['REQUEST_METHOD']==='POST'){
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['calorie']) && $_POST['calorie'] !== '') {
     $cal =(int) $_POST['calorie'];
     $_SESSION['total']+=$cal;
     $_SESSION['count']++;
