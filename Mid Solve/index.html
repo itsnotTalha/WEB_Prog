@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controller</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ROS Bridge Library -->
+    <script src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
+</head>
+<body>
+    <div class="app">
+        <!-- Velocity Display -->
+        <div class="velocity-display">
+            <div class="velocity-item">
+                <span class="velocity-label">Linear vel:</span>
+                <span class="velocity-value" id="stat-linear">0.00</span>
+            </div>
+            <span class="velocity-separator">|</span>
+            <div class="velocity-item">
+                <span class="velocity-label">Angular vel:</span>
+                <span class="velocity-value" id="stat-angular">0.00</span>
+            </div>
+        </div>
+
+        <!-- Target Display -->
+        <div class="target-display">
+            <span class="target-label">Target: L=<span id="target-linear">0.00</span> A=<span id="target-angular">0.00</span></span>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls-container">
+            <!-- Row 1: diff left | up | diff right -->
+            <div class="button-row">
+                <button class="btn btn-diff-left" id="btn-diff-left" data-command="differential-left">
+                    <span class="icon">↺</span>
+                    <span class="label">Diff L</span>
+                </button>
+                <button class="btn btn-up" id="btn-up" data-command="forward">
+                    <span class="icon">▲</span>
+                </button>
+                <button class="btn btn-diff-right" id="btn-diff-right" data-command="differential-right">
+                    <span class="icon">↻</span>
+                    <span class="label">Diff R</span>
+                </button>
+            </div>
+
+            <!-- Row 2: left | arm/disarm | right -->
+            <div class="button-row">
+                <button class="btn btn-left" id="btn-left" data-command="left">
+                    <span class="icon">◄</span>
+                </button>
+                <button class="btn btn-arm" id="btn-arm">
+                    <span class="icon">༒︎</span>
+                    <span class="label">DISARM</span>
+                </button>
+                <button class="btn btn-right" id="btn-right" data-command="right">
+                    <span class="icon">►</span>
+                </button>
+            </div>
+
+            <!-- Row 3: empty | down | empty -->
+            <div class="button-row">
+                <div></div>
+                <button class="btn btn-down" id="btn-down" data-command="backward">
+                    <span class="icon">▼</span>
+                </button>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Status Display -->
+        <div class="status-display">
+            <span class="status-label">Status:</span>
+            <span class="status-value" id="stat-status">System Disarmed</span>
+        </div>
+
+        <!-- Keyboard Hint -->
+        <div class="keyboard-hint">
+            Keyboard: WASD or Arrow Keys | Press T to toggle arm
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
